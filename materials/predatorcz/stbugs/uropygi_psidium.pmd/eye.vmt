@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/uropygi_psidium.pmd/eye"
+  $Envmap "predatorcz/STbugs/uropygi_psidium.pmd/eye-reflection-cubemap"
+  $envmaptint "[.5 .5 .5]"
+
+ }
+--[[EyeRefract
+{
+$Iris "predatorcz/STbugs/uropygi_psidium.pmd/eye" 
+$AmbientOcclTexture "predatorcz/STbugs/uropygi_psidium.pmd/eye_ao" 
+$Envmap "predatorcz/STbugs/uropygi_psidium.pmd/eye-reflection-cubemap" 
+$CorneaTexture "predatorcz/STbugs/uropygi_psidium.pmd/eye-cornea" 
+$EyeballRadius "20" 
+$AmbientOcclColor "[.4 .3 .27]" 
+$Dilation "0.5" 
+$ParallaxStrength "0.25" 
+$CorneaBumpStrength ".5" 
+$halflambert 1
+$nodecal 1
+$ambientocclusion 1
+
+$RaytraceSphere 1 
+$SphereTexkillCombo 0 
+}  

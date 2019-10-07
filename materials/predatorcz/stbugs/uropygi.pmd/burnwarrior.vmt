@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/uropygi.pmd/warriorburn"
+	"$bumpmap" "predatorcz/STbugs/uropygi.pmd/warriorburn_n"
+	 $phong 1
+  $phongexponent 1
+	$halflambert 1
+  $phongboost	0.1
+	
+  $phongfresnelranges	"[0.05 0.5 1]"
+		"$rimlight" "1"
+	"$rimlightexponent" "10"	
+	"$rimlightboost" ".175"
+}

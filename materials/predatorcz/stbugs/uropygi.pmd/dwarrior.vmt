@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/uropygi.pmd/dwarrior"
+	"$bumpmap" "predatorcz/STbugs/uropygi.pmd/warrior_n"
+	$phong 1
+  $phongexponent 1
+	$halflambert 1
+  $phongboost	0.1
+	$phongfresnelranges	"[0.05 0.5 1]"
+		
+}

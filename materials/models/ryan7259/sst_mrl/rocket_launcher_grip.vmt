@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sst_mrl/ROCKET_LAUNCHER_GRIP"
+	"$bumpmap" "models/sst_mrl/ROCKET_LAUNCHER_GRIP_N"
+	"$nocull" 1
+	"$halflambert" 1
+}

@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/uropygi_basilicus_dispositus.pmd/royalx1"
+	"$bumpmap" "predatorcz/STbugs/uropygi_basilicus_dispositus.pmd/royalx1_N"
+	 $selfillum  1
+	 $selfillummask "predatorcz/STbugs/uropygi_basilicus_dispositus.pmd/royalx1_g"
+	 $selfillumtint  "[10 10 10]"   
+  $phong 1
+  $phongexponent 1
+  $phongboost	1
+  $phongtint	"[.3 .4 .3]"	
+  $phongfresnelranges	"[0.05 0.5 1]"
+	"$rimlight" "1"
+	"$rimlightexponent" "10"	
+  "$rimlightboost" ".2"
+	"$lightwarptexture" "predatorcz/STbugs/uropygi_basilicus_dispositus.pmd/royalx1_l"
+ }

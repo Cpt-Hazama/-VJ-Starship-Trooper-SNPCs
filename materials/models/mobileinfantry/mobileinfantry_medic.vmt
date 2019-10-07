@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/mobileinfantry/mobileinfantry_medic"
+	"$bumpmap" "models/mobileinfantry/mobileinfantry_normal"
+}

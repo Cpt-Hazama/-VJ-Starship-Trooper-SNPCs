@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/opilionei.pmd\firefly"
+	"$bumpmap" "predatorcz/STbugs/opilionei.pmd\firefly_N"
+	$selfillum 1
+	 $selfillummask "predatorcz/STbugs/opilionei.pmd\firefly_g"
+
+     
+     $phong 1
+  $phongexponent 1
+	$halflambert 1
+  $phongboost	0.1
+	$phongfresnelranges	"[0.05 0.5 1]"
+		"$rimlight" "1"
+	"$rimlightexponent" "10"	
+	"$rimlightboost" ".175"
+	"$lightwarptexture" "predatorcz/STbugs/opilionei.pmd\firefly_l"
+ }

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/uropygi_tigris_elitus.pmd/shardeye"
+  $selfillum 1
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"	
+	"$rimlightboost" ".175"
+	"$lightwarptexture" "predatorcz/STbugs/uropygi_tigris_elitus.pmd/tigershard_l"  
+ }

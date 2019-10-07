@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/uropygi_basilicus_dispositus.pmd/blood_g"
+	$selfillum 0
+	$selfillumtint	"[1 1 1]"
+   $color2	"{255 255 255}"
+
+		"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 1
+			"texturescrollangle" 37.00 
+		}
+    "PPS_MaterialControl"
+    {
+     resultvar1 $selfillumtint
+     resultvar2 $selfillum
+     resultvar2 $color2 
+    }
+ }
+ }

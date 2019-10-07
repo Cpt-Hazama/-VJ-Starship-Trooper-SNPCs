@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/opilionei.pmd\rippler2"
+	"$bumpmap" "predatorcz/STbugs/opilionei.pmd\rippler_N"
+	 $alphatest 1
+
+     
+   
+
+ }

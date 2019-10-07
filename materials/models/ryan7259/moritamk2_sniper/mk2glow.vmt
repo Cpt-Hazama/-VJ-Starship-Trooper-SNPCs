@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/moritamk2_sniper/MK2GLOW"
+	"$halflambert" 1
+}

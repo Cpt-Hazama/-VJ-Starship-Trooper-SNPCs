@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/mobileinfantry/armour_map2"
+	"$bumpmap" "models/mobileinfantry/armour_map2_normal"
+	"$nocull" 1
+}

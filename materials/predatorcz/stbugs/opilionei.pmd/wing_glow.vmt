@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/opilionei.pmd\firefly2_g"
+   //$nocull 1
+	 $translucent 1
+ }

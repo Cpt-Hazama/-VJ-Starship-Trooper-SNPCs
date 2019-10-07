@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/morita_shotgun/SHOT"
+	"$bumpmap" "models/morita_shotgun/SHOT_N"
+	"$nocull" 1
+	"$halflambert" 1
+}

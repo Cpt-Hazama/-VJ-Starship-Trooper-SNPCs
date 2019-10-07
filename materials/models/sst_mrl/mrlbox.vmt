@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sst_mrl/MRLBOX"
+	"$bumpmap" "models/sst_mrl/MRLBOX_N"
+	"$nocull" 1
+}

@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/cerebus_rex.pmd/brain2"
+	"$bumpmap" "predatorcz/STbugs/cerebus_rex.pmd/brain2_n"
+   $phong 1
+  $phongexponent 0.5
+	//$halflambert 1
+  $phongboost	2
+	$phongfresnelranges	"[0.05 0.5 1]"
+	//	"$rimlight" "1"
+	//"$rimlightexponent" "50"	
+	//"$rimlightboost" ".01"
+		
+	//"$lightWarpTexture" "predatorcz/STbugs/cerebus_rex.pmd\plasma01_l"
+}

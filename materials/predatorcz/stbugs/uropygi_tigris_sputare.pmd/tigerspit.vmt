@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/uropygi_tigris_sputare.pmd/tigerspit"
+	"$bumpmap" "predatorcz/STbugs/uropygi_tigris_sputare.pmd/tigerspit_N"
+	 //$selfillum 1
+    $phong 1
+  $phongexponent 1
+	$halflambert 1
+  $phongboost	0.5
+  $phongtint	"[ .2 .5 0]"
+	$phongfresnelranges	"[0.05 0.5 1]"
+		
+	"$lightwarptexture" "predatorcz/STbugs/uropygi_tigris_sputare.pmd/tigerspit_l"       
+ }

@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/amblypygi_parvulus.pmd/deadtanker"
+	"$bumpmap" "predatorcz/STbugs/amblypygi_parvulus.pmd/BABYTANKER_N"
+ $phong 1
+  $phongexponent 1
+
+  $phongboost	0.1
+	$phongfresnelranges	"[0.05 0.5 1]"
+		"$rimlight" "1"
+	"$rimlightexponent" "50"	
+	"$rimlightboost" ".05"
+	"$lightwarptexture" "predatorcz/STbugs/amblypygi_parvulus.pmd/BABYTANKER_l"	
+
+}

@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/opilionei.pmd\firefly2"
+	"$bumpmap" "predatorcz/STbugs/opilionei.pmd\firefly2_N"
+   	 $nocull 1
+	 $alphatest 1
+     
+    
+ }

@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	$translucent 1
+	$basetexture predatorcz/STbugs/shared.pmd/bug_blood
+  $frame 2
+	$decal 1
+	$decalscale 0.5
+  $decalfadetime 30
+   $decalfadeduration 5
+   $vertexcolor 1
+	 	$modelmaterial predatorcz/STbugs/shared.pmd/bug_blood2_model 
+    
+}

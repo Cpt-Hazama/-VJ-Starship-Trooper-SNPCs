@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/morita/RAILDRIVER"
+	"$bumpmap" "models/morita/RAILDRIVER_N"
+	"$nocull" "1"
+	"$halflambert" 1
+}

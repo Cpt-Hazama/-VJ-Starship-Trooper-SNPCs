@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/custos.pmd\sentinel3"
+	"$bumpmap" "predatorcz/STbugs/custos.pmd\sentinel3_N"
+	 $selfillum 1
+	 $selfillummask "predatorcz/STbugs/custos.pmd\sentinel3_g"       
+    "$detail" "predatorcz/STbugs/custos.pmd/bezova"  
+      	$detailblendfactor 5
+        $detailtint "{245 245 260}"                        
+	 $phong 1
+  $phongexponent 1
+	$halflambert 1
+  $phongboost	0.1
+	$phongfresnelranges	"[0.05 0.5 1]"
+		"$rimlight" "1"
+	"$rimlightexponent" "10"	
+	"$rimlightboost" ".175"
+ }

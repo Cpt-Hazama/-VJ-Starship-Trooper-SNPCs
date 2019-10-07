@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/uropygi_basilicus_dispositus.pmd/blood_g"
+	$selfillum 1
+ 
+
+		"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 1
+			"texturescrollangle" 37.00 
+		}
+ }
+ }

@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/shared.pmd/royalx3"
+	"$bumpmap" "predatorcz/STbugs/shared.pmd/royalx3_N"
+	  $selfillum 1
+	 $selfillummask "predatorcz/STbugs/shared.pmd/royalx3_g" 
+  $phong 1
+  $phongexponent 1
+  $phongboost	1
+  $phongtint	"[.3 0 0]"
+	$phongfresnelranges	"[0.05 0.5 1]"	
+ }

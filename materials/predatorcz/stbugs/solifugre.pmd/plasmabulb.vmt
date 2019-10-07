@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz\STbugs\solifugre.pmd\plasmabulb"
+  	"$envmap" "predatorcz\STbugs\solifugre.pmd\plasmabulb"
+	 $additive 1 
+	  $selfillum 1
+	 $selfillummask "predatorcz\STbugs\solifugre.pmd\plasmabulb_g"
+
+     
+  
+	
+		"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 2
+			"texturescrollangle" 37.00 
+		}
+ }
+ }

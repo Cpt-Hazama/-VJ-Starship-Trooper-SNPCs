@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/moritamk2_sniper/RAILDRIVERSCOPE"
+	"$bumpmap" "models/moritamk2_sniper/RAILDRIVERSCOPE_N"
+	"$nocull" 1
+	"$halflambert" 1
+}

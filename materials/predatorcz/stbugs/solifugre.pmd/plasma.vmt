@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz\STbugs\solifugre.pmd\plasma"
+	"$bumpmap" "predatorcz\STbugs\solifugre.pmd\plasma_N"
+  $detail "predatorcz\STbugs\solifugre.pmd\plasmab_armor"
+   $selfillum 1
+	 $selfillummask "predatorcz\STbugs\solifugre.pmd\plasmab_glow"
+   	 $selfillumtint  "[12 12 12]"
+
+     
+     $phong 1
+  $phongexponent 1
+	$halflambert 1
+  $phongboost	0.1
+	$phongfresnelranges	"[0.05 0.5 1]"
+		"$rimlight" "1"
+	"$rimlightexponent" "10"	
+	"$rimlightboost" ".175"
+	"$lightwarptexture" "predatorcz\STbugs\solifugre.pmd\plasma_l"
+ }
+

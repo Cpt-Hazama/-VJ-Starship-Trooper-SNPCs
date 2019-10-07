@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sst_mrl/MRLMAG"
+	"$bumpmap" "models/sst_mrl/MRLMAG_N"
+	"$nocull" 1
+	"$halflambert" 1
+}

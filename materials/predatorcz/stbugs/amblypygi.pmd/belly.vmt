@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "predatorcz/STbugs/amblypygi.pmd/belly"
+	"$bumpmap" "predatorcz/STbugs/amblypygi.pmd/Tank_shell_n"
+	"$nocull" 1
+	"$halflambert" 1
+
+	"$phong" 							"1"
+	$phongboost	1
+	$phongfresnelranges	"[0.05 0.5 1]"
+}
