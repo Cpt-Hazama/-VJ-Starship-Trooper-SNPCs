@@ -27,12 +27,20 @@ if VJExists == true then
 
 	local weapontbl = {
 		"weapon_vj_sst_mk2",
+		"weapon_vj_sst_mk2",
+		"weapon_vj_sst_mk2",
+		"weapon_vj_sst_mk2",
+		"weapon_vj_sst_mk2",
 		"weapon_vj_sst_mk2shotgun",
+		"weapon_vj_sst_mk2shotgun",
+		"weapon_vj_sst_mk2grenade",
+		"weapon_vj_sst_mk2grenade",
 		"weapon_vj_sst_mk2grenade",
 		-- "weapon_vj_sst_mk4",
 		-- "weapon_vj_sst_mk1",
 		-- "weapon_vj_sst_mk2sniper",
 		-- "weapon_vj_sst_railgun",
+		"weapon_vj_sst_rocketlauncher",
 		"weapon_vj_sst_rocketlauncher",
 		"weapon_vj_sst_quadrocketlauncher"
 	}
@@ -40,19 +48,19 @@ if VJExists == true then
 	local vCat = "Starship Troopers"
 	// NEW STUFF
 	VJ.AddNPC_HUMAN("Mobile Infantry (Male)","npc_vj_sst_mi_male",weapontbl,vCat)
-	VJ.AddNPC_HUMAN("Mobile Infantry (Female)","npc_vj_sst_mi_female",weapontbl,vCat)
+	-- VJ.AddNPC_HUMAN("Mobile Infantry (Female)","npc_vj_sst_mi_female",weapontbl,vCat)
 
 	// ORIGINAL BUGS
-	-- VJ.AddNPC("Blaster","npc_vj_sst_blaster",vCat) // Fires blue projectiles, Blue
-	-- VJ.AddNPC("Chariot","npc_vj_sst_chariot",vCat) // Runs around, Yellow
-	-- VJ.AddNPC("Cliffmite","npc_vj_sst_cliffmite",vCat) // Stationary, fires red projectiles, Orange
+	VJ.AddNPC("Blaster","npc_vj_sst_blaster",vCat) // Fires blue projectiles, Blue
+	VJ.AddNPC("Chariot","npc_vj_sst_chariot",vCat) // Runs around, Yellow
+	VJ.AddNPC("Cliffmite","npc_vj_sst_cliffmite",vCat) // Stationary, fires red projectiles, Orange
 	VJ.AddNPC("Federal Bug","npc_vj_sst_federal",vCat) // Standard, Green
 	VJ.AddNPC("Heavy Bug","npc_vj_sst_heavy",vCat) // Standard, Green
 	VJ.AddNPC("Royal","npc_vj_sst_royal",vCat) // Sonic Attack, Standard, Synth
 	VJ.AddNPC("Runner","npc_vj_sst_runner",vCat) // Standard, Green
-	-- VJ.AddNPC("Sentinel","npc_vj_sst_sentinel",vCat) // Creates bright lights, Orange
+	VJ.AddNPC("Sentinel","npc_vj_sst_sentinel",vCat) // Creates bright lights, Orange
 	VJ.AddNPC("Spitter Invasion","npc_vj_sst_invasion",vCat) // Spits, Standard, Green
-	-- VJ.AddNPC("Tanker","npc_vj_sst_tanker",vCat) // Spits Fire, Headbutt, Orange
+	VJ.AddNPC("Tanker","npc_vj_sst_tanker",vCat) // Spits Fire, Headbutt, Orange
 	VJ.AddNPC("Tiger","npc_vj_sst_tiger",vCat) // Standard, Green
 	VJ.AddNPC("Tiger Elite","npc_vj_sst_elite",vCat) // Fires light blue projectiles, Standard, Blue Special
 	VJ.AddNPC("Tiger Spitter","npc_vj_sst_spitter",vCat) // Spits, Standard, Green
@@ -60,17 +68,15 @@ if VJExists == true then
 	VJ.AddNPC("Warrior Invasion","npc_vj_sst_warriorinv",vCat) // Standard, Green
 	VJ.AddNPC("Worker","npc_vj_sst_worker",vCat) // Standard, Green
 	VJ.AddNPC("X Bug","npc_vj_sst_xbug",vCat) // Summons 3 bugs, Standard, Synth
-
-	// NEW BUGS
 	VJ.AddNPC("Boss","npc_vj_sst_boss",vCat) // Standard, Green
 	VJ.AddNPC("Plasma","npc_vj_sst_plasma",vCat) // Fires Plasma, Standard, Blue
-	-- VJ.AddNPC("Plasma Baby","npc_vj_sst_plasmababy",vCat) // Fires Plasma, Standard, Blue
-	-- VJ.AddNPC("Tanker Baby","npc_vj_sst_tankerbaby",vCat) // Nothing :/
-	-- VJ.AddNPC("Brain Bug","npc_vj_sst_brainbug",vCat) // Nothing :/
-	-- VJ.AddNPC("Rhino","npc_vj_sst_rhino",vCat) // Nothing :/
+	VJ.AddNPC("Plasma (Young)","npc_vj_sst_plasma_young",vCat) // Fires Plasma, Standard, Blue
 	VJ.AddNPC("Hopper","npc_vj_sst_hopper",vCat) // Flys, Standard, Orange
-	-- VJ.AddNPC("Firefly","npc_vj_sst_firefly",vCat) // Flys, Spits Fire, Standard, Orange
-	-- VJ.AddNPC("Rippler","npc_vj_sst_rippler",vCat) // Flys, Spits, Suicide, Standard, Orange
+
+	// Need fixed up/animations
+	VJ.AddNPC("Brain Bug","npc_vj_sst_brainbug",vCat)
+	VJ.AddNPC("Rhino","npc_vj_sst_rhino",vCat)
+	VJ.AddNPC("Tanker (Young)","npc_vj_sst_tanker_young",vCat)
 
 	// EXTRA BUGS
 	VJ.AddNPC("Random Bug Spawner","sent_vj_sst_bugspawner",vCat) // Spawns All Smaller Bugs

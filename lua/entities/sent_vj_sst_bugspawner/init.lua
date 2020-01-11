@@ -7,10 +7,6 @@ include('shared.lua')
 -----------------------------------------------*/
 ENT.Model = {"models/props_junk/popcan01a.mdl"} -- The models it should spawn with | Picks a random one from the table
 local bugtbl = {
-	"npc_vj_sst_federal",
-	"npc_vj_sst_federal",
-	"npc_vj_sst_federal",
-	"npc_vj_sst_federal",
 	"npc_vj_sst_heavy",
 	"npc_vj_sst_runner",
 	"npc_vj_sst_runner",

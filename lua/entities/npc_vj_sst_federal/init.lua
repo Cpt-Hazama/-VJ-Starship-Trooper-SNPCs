@@ -7,6 +7,9 @@ include('shared.lua')
 -----------------------------------------------*/
 ENT.Model = "models/predatorcz/stbugs/uropygi_psidium.pmd/model.mdl" -- The game will pick a random model from the table when the SNPC is spawned | Add as many as you want
 ENT.StartHealth = 325
+ENT.VJ_NPC_Class = {"CLASS_PLAYER_ALLY"}
+ENT.PlayerFriendly = true
+ENT.FriendsWithAllPlayerAllies = true
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ENT.CustomBlood_Particle = {"blood_impact_stb_green"} -- Particles to spawn when it's damaged
 ENT.CustomBlood_Decal = {"VJ_Blood_Green"} -- Decals to spawn when it's damaged
