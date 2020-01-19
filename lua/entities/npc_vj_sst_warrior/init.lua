@@ -24,6 +24,17 @@ ENT.MeleeAttackDistance = 50 -- How close does it have to be until it attacks?
 ENT.MeleeAttackDamageDistance = 188 -- How far the damage goes
 ENT.UntilNextAttack_Melee = 0.5 -- How much time until it can use a attack again? | Counted in Seconds
 ENT.DisableFootStepSoundTimer = true
+
+ENT.MeleeAttackBleedEnemy = true -- Should the enemy bleed when attacked by melee?
+ENT.MeleeAttackBleedEnemyChance = 2 -- How much chance there is that the enemy will bleed? | 1 = always
+ENT.MeleeAttackBleedEnemyDamage = 2 -- How much damage will the enemy get on every rep?
+ENT.MeleeAttackBleedEnemyTime = 1 -- How much time until the next rep?
+ENT.MeleeAttackBleedEnemyReps = 50 -- How many reps?
+
+ENT.SlowPlayerOnMeleeAttack = true -- If true, then the player will slow down
+ENT.SlowPlayerOnMeleeAttack_WalkSpeed = 50 -- Walking Speed when Slow Player is on
+ENT.SlowPlayerOnMeleeAttack_RunSpeed = 75 -- Running Speed when Slow Player is on
+ENT.SlowPlayerOnMeleeAttackTime = 15 -- How much time until player's Speed resets
 -- Custom -----------------------------------------------------------------------------------------------------------------------------------
 ENT.CollisionBounds = Vector(40,40,108)
 ENT.SST_HasGibs = true
